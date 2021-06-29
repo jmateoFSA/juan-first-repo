@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+h1 {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+</style>
+</head>
+<body>
+  <h1 id="h_1">Juan's first repo</h1>
+  <p id="p_1">This is my first time using github. Here's a test with some HTML.</p>
+<script id="jsbin-javascript">
+console.clear();
+const p1 = document.getElementById("p_1");
+const h1 = document.getElementById("h_1");
+
+h1.addEventListener('click', function(){
+  p1.classList.toggle('hidden');
+})
+</script>
+
+
+<script id="jsbin-source-css" type="text/css">h1 {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}</script>
+
+<script id="jsbin-source-javascript" type="text/javascript">console.clear();
+const p1 = document.getElementById("p_1");
+const h1 = document.getElementById("h_1");
+
+h1.addEventListener('click', function(){
+  p1.classList.toggle('hidden');
+})</script></body>
+</html>
